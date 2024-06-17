@@ -123,8 +123,8 @@ library(imputeTS)
 # Exportdatei erstellen ----------------------------------------------------------
     
   ## Exportdatei erstellen  (Benneung anpassen an Untersuchungsgruppe)
-  write.csv2(data_collection,"data_collection_straße.csv", row.names=TRUE) # Benneung anpassen an Utersuchungsgruppe
-  write.csv2(data_vertrauenswürdig,"data_vertrauenswürdig_straße.csv", row.names=TRUE)
+  write.csv2(data_collection,"data_collection_bestandesrand.csv", row.names=TRUE) # Benneung anpassen an Utersuchungsgruppe
+  write.csv2(data_vertrauenswürdig,"data_durchmesser_vertrauenswürdig_bestandesrand.csv", row.names=TRUE)
       
     
     
